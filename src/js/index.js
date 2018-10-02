@@ -1,5 +1,10 @@
 import '../scss/styles.scss';
-// import './backend-logic.js';
+import { CreateSudoku } from './backend-logic.js';
 import $ from 'jquery';
 
-// Business logic
+// Frontend Logic
+$(document).ready(function() {
+
+  CreateSudoku();
+  
+});
